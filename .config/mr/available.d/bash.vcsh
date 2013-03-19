@@ -1,2 +1,6 @@
 [$HOME/.config/vcsh/repo.d/bashrc.git]
-checkout = vcsh clone git://github.com/nvandal/bashrc.git bashrc
+checkout = vcsh clone git@github.com:nvandal/bashrc.git bashrc
+update   = vcsh run bashrc git pull
+push     = vcsh run bashrc git push 
+status   = vcsh run bashrc git status
+gc       = vcsh run bashrc git gc
