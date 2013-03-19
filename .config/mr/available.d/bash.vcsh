@@ -1,0 +1,2 @@
+[$HOME/.config/vcsh/repo.d/bashrc.git]
+checkout = vcsh clone git://github.com/nvandal/bashrc.git bashrc
