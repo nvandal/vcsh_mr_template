@@ -1,0 +1,6 @@
+[$HOME/.config/vcsh/repo.d/zshrc.git]
+checkout = vcsh clone git@github.com:nvandal/zshrc.git zshrc
+update   = vcsh run zshrc git pull
+push     = vcsh run zshrc git push 
+status   = vcsh run zshrc git status
+gc       = vcsh run zshrc git gc
