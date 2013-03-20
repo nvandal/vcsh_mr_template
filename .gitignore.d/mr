@@ -7,3 +7,4 @@
 !.config/mr/config.d
 !.config/mr/config.d/mr.vcsh
 !.config/mr/config.d/bash.vcsh
+!.config/mr/config.d/vim.vcsh
